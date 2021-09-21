@@ -1,6 +1,15 @@
-# alien-species-spread-paper
+# alien-species-spread
 
 This repository contains instructions on how to handle the data, from its raw input until obtaining the results reported in the final paper.
+
+# Using the files in this repository
+
+Due to the fact that some files in this project are too big to fit in the repository, we had to split them into several parts so everything could be uploaded.
+To use the files, one have to join them again. To do this, you simply `clone` or `download` the repository, go to a folder, for example the `data` one, and use this command in your terminal:
+
+"""bash
+cat data.zip.part_* > data.zip
+"""
 
 # Filtering the raw files
 
@@ -32,8 +41,7 @@ Therefore, in the following steps, when the word `group` appears we are refering
 
 ## Selecting the columns of interest
 
-Open one of the `/group/raw_data/group_database.{xlsx or csv or dat}` database files and copy the columns `scientificname`, `eventdate` , `decimallongitude`, and `decimallatitude`
-into the respective files `specie.dat`, `dates.dat`, `lon.dat`, and `lat.dat`. 
+Open one of the `/group/raw_data/group_database.{xlsx or csv or dat}` database files and copy the columns `scientificname`, `eventdate` , `decimallongitude`, and `decimallatitude` into the respective files `specie.dat`, `dates.dat`, `lon.dat`, and `lat.dat`. 
 
 For example, for the `Birds` group we select the database file `/birds/raw_data/SpeciesLink.xslx`, there will be 48 columns, which we select just the ones mentioned above.
 
