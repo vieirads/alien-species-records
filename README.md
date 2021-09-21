@@ -85,7 +85,7 @@ All instructions needed to create the files are within the the file `python/crea
 
 # Separating the filtered data in native and non-native 
 
-The notebook `python/creating_final_data.ipynb` is also used to filter the occurrences into native and non-native. This procedure is done for each species. The filtered data can be found within the folders `python/filtered_regions/origin_data` and `python/filtered_regions/non_origin_data`. Within these folder we have subdivisions as mentioned before. However, we have other folders within `python/filtered/regions`:
+The notebook `python/creating_final_data.ipynb` is also used to filter the occurrences into native and non-native. This procedure is done for each species. The files within the folder `world_boundaries` are used to asses if the occurrences are in or out the native range of each specie. The filtered data can be found within the folders `python/filtered_regions/origin_data` and `python/filtered_regions/non_origin_data`. Within these folder we have subdivisions as mentioned before. However, we have other folders within `python/filtered/regions`:
 
 - origin_continents: files for each group with their species and native continents;
 - raw_data: the raw data from before, already joined from the databases.
