@@ -7,9 +7,9 @@ This repository contains instructions on how to handle the data, from its raw in
 Due to the fact that some files in this project are too big to fit in the repository, we had to split them into several parts so everything could be uploaded.
 To use the files, one have to join them again. To do this, you simply `clone` or `download` the repository, go to a folder, for example the `data` one, and use this command in your terminal:
 
-"""bash
-cat data.zip.part_* > data.zip
-"""
+```bash
+$ cat data.zip.part_* > data.zip
+```
 
 # Filtering the raw files
 
